@@ -1,0 +1,41 @@
+<svg class="ring">
+    <circle class="ring-circle-bg" r='64' cx="70" cy="70"
+    stroke-dasharray="0em" stroke-dashoffset="0em"/>
+    <circle class="ring-circle" stroke-width="3" cx="70" cy="70" r="64"
+    fill="transparent" />
+    <text x="70" y="70"
+    text-anchor="middle"
+    dominant-baseline="central"
+    fill="#ff0036" font-size="40"
+    font-weight="bold">90%</text>
+  </svg>
+
+  .ring {
+
+    width: 140px;
+    height: 140px;
+  }
+  .ring-circle-bg {
+    stroke: #e7e7e7;
+    fill: transparent;
+    stroke-width: 3;
+  }
+  .ring-circle {
+    stroke: #ff0036;
+    transform-origin: center;
+    transform: rotate(30deg);
+  }
+  .percent {
+    color: #000;
+    font-size: 40px;
+  }
+  .bgc {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+  }
+  .full {
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/svg/tablet.svg);
+  }

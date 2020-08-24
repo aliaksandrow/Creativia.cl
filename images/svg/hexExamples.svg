@@ -1,0 +1,92 @@
+<img src="" alt="logo">
+<p>design by amr sour</p>
+<div class="bgc">
+<svg enable-background="new 0 0 30 30"
+   height="30px" id="Layer_1"
+    version="1.1" viewBox="0 0 30 30" width="30px"><g><g>
+      <path d="M2.072,0l2.399,26.963L15.234,
+      30l10.837-3.037L28.472,0H2.072z M23.259,
+      8.795H10.622l0.281,3.393h12.074L22.04,22.389
+          l-6.73,1.855v0.02h-0.075l-6.787-1.875l-0.413-5.213h3.281l0.244,
+          2.625l3.675,0.994l3.692-0.994l0.414-4.275H7.866L6.984,5.514
+              H23.56L23.259,8.795z"/></g></g>
+            </svg>
+
+          </div>
+
+<div class="full">
+<object type="image/svg+xml" data="./images/svg/tablet.svg">
+Your browser does not support SVG
+</object>
+</div>
+<div class="">
+<ul id="tab">
+<li class="item">
+<svg class="bgr" width="66" height="57"
+version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill=""
+viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<polygon
+points="462,110.056 256,0 50,110.056 50,401.944 256,512 462,401.944 "/>
+
+<g class="red" viewBox="0 0 512 512">
+<polygon class="green" fill="#222020"
+points="180.576,291.552 232.008,239.112 232.008,365.672 279.992,365.672 279.992,239.112
+331.424,291.552 365.672,258.144 256.008,146.336 146.328,258.144 "/>
+</g>
+</svg>
+</li>
+<li class="item">
+<svg class="bgr" width="66" height="57"
+version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+fill="blue"
+viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g  width="66" height="57" viewBox="0 0 512 512">
+<polygon
+points="462,110.056 256,0 50,110.056 50,401.944 256,512 462,401.944 "/>
+<polygon class="green" fill="#222020"
+points="180.576,291.552 232.008,239.112 232.008,365.672 279.992,365.672 279.992,239.112
+331.424,291.552 365.672,258.144 256.008,146.336 146.328,258.144 "/>
+</g>
+</svg>
+</li>
+</ul>
+
+
+</div>
+<p>A few examples of hexagons with inline SVG (via HTML5). Also shows some CSS transitions of SVG attributes.</p>
+
+<p>
+<small>css hover animation edited by <a href="mailto:simdevrob@gmail.com" >xCogRob </a><small>
+</p>
+
+<h1>Color Fill</h1>
+
+<svg id="color-fill" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<polygon class="hex" points="300,150 225,280 75,280 0,150 75,20 225,20"></polygon>
+
+</svg>
+
+<h1>Color Fill with anchor</h1>
+
+<svg id="color-fill-anchor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<a xlink:href="http://viget.com">
+<polygon class="hex" points="300,150 225,280 75,280 0,150 75,20 225,20" fill="#fa5"></polygon>
+</a>
+
+</svg>
+
+<h1>Image Fill</h1>
+
+<svg id="image-fill" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<defs>
+<pattern id="image-bg" x="0" y="0" height="300" width="300" patternUnits="userSpaceOnUse">
+<image width="300" height="300" xlink:href="http://placekitten.com/306/306"></image>
+</pattern>
+</defs>
+
+<polygon class="hex" points="300,150 225,280 75,280 0,150 75,20 225,20" fill="url('#image-bg')"></polygon>
+
+</svg>
